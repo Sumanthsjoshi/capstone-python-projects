@@ -3,6 +3,9 @@
 
 
 # Function to generate Fibonacci series
+from src.utils.get_number_input import get_number_input
+
+
 def gen_fibonacci(n):
     """
     This generator function returns the next value in a Fibonacci series
@@ -14,14 +17,7 @@ def gen_fibonacci(n):
 
 
 # Get the number from user
-while True:
-    try:
-        num = int(input("Please provide a number: "))
-    except ValueError:
-        print("Oops!! that's not a number.")
-    else:
-        print("Accepted!!")
-        break
+num = get_number_input()
 
 print("Generating a Fibonacci series upto {} values".format(num))
 
