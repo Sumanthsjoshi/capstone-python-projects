@@ -2,3 +2,4 @@ __pycache__/
 utils/__pycache__/__init__.cpython-37.pyc utils/__pycache__/get_number_input.cpython-37.pyc
 utils/__pycache__/
 .idea/
+.idea/* 
